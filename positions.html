@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positions</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+                                                                        /* using for not take margin and padding default */
+        }
+        div{
+            width: 100px;
+            height: 100px;
+
+        }
+        .a{
+            background-color: red;
+            z-index: -1;
+            /* position: absolute; */
+            
+                                                                        /* absolute don't spacify space */
+            /* left: 100px; */
+                                
+        }
+        .b{
+            background-color: yellow;
+           
+           /* scale: 1; */
+                                                                            /* // scale is use 1 for visibale and 0 for hidden but space occupy */
+            /* position: relative; */
+                                                                        /* it's take space */
+            
+        }
+        .c{
+            background-color: aqua;
+        }
+        .d{
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div class="a"></div>
+    <div class="b"></div>
+    <div class="c"></div>
+    <div class="d"></div>
+</body>
+</html>

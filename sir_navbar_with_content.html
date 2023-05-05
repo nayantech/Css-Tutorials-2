@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media-Query</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: cursive;
+        }
+        h1{
+            text-align: center;
+            color: green;
+            text-transform: capitalize;
+            background-color: wheat;
+            padding: 10px;
+            /* position:relative; */
+            width: 100%;
+            /* margin-bottom: 20px; */
+           
+        }
+        section{
+          
+            background-color: black;
+            color: white;
+            /* border: 1px solid red; */
+            /* width: 100%; */
+            min-height: 400px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            padding: 1rem;
+            margin: 10px 0;
+        
+            /* background-image: linear-gradient(red,yellow,green); */
+            background-image: url("bg1.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        section img{
+            /* width: 18rem; */
+            width: 30%;
+            /* height: auto; */
+            border-radius: 1rem 3rem;
+            box-shadow: 5px 5px 10px 10px orange;
+            /* background-color: red; */
+            /* border: 1px solid red; */
+
+        }
+
+        section p{
+            /* width: 35rem; */
+            width: 60%;
+            height: auto;
+            text-align: justify;
+            line-height: 1.5;
+        }
+     
+        /* @media (max-width:749px){
+            section{
+                display: flex;
+                flex-direction: column;
+                color: lightcyan;
+            }
+            section p{
+                width: 100%;
+                height: auto;
+                padding-top: 1.2rem;
+            }
+            section img{
+                padding: 0.4rem;
+                width: 60%;
+                height: auto;
+
+            }
+        } */
+/* 
+            @media (orientation:portrait){
+                section{
+                    background-color: red;
+                }
+                
+            } */
+
+            /* @media (orientation:landscape){
+                section{
+                    background-color: greenyellow;
+                    color: orangered;
+                }
+            } */
+
+
+            /* @media print{
+                p{
+                    color: purple;
+                    font-size: 25px;
+                }
+            } */
+    </style>
+</head>
+<body>
+    <!-- <div> -->
+    <h1>📱 Media-Queries💻</h1>
+    <!-- </div> -->
+    <main>
+        <section>
+            <img src="bg.png">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, magni! Consequatur eius quod inventore temporibus aliquam adipisci in aspernatur sed voluptatum pariatur numquam, est fuga ut accusantium amet necessitatibus! Qui.</p>
+        </section>
+
+        <section>
+            <img src="bg.png">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, magni! Consequatur eius quod inventore temporibus aliquam adipisci in aspernatur sed voluptatum pariatur numquam, est fuga ut accusantium amet necessitatibus! Qui.</p>
+        </section>
+
+        <section>
+            <img src="bg.png">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, magni! Consequatur eius quod inventore temporibus aliquam adipisci in aspernatur sed voluptatum pariatur numquam, est fuga ut accusantium amet necessitatibus! Qui.</p>
+        </section>
+    </main>
+</body>
+</html>
